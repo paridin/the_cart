@@ -21,4 +21,4 @@ jobs:
       - run: mix deps.get
       - run: mix ecto.create
       - run: mix test
-      - run: mix coveralls --umbrella
+      - run: mix coveralls.circle --umbrella
