@@ -13,12 +13,13 @@ server render using React(with Recompose),Elm and if I want to learn a new UI, I
 can implement here.
 
 
-**TODO: Steps during my learning. **
-[] Learn Recompose (thats why our first demo should work with react)
-  [] Setup the React project
-  [] Create a High
+**TODO: Steps during my learning.**
+
+* [ ] Learn Recompose (thats why our first demo should work with react)
+  * [ ] Setup the React project
+  * [ ] Create a High
   
-[] Learn ELM
+* [ ] Learn ELM
 
 ### Chronology
 > 23/JUN/2018 I accept the challenge.
