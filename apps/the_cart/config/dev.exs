@@ -51,8 +51,8 @@ config :phoenix, :stacktrace_depth, 20
 # Configure your database
 config :the_cart, TheCart.Repo,
   adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
-  password: "postgres",
+  username: "developing",
+  password: "demosapp1!",
   database: "the_cart_dev",
   hostname: "localhost",
   pool_size: 10

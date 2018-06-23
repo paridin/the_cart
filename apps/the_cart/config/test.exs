@@ -12,8 +12,8 @@ config :logger, level: :warn
 # Configure your database
 config :the_cart, TheCart.Repo,
   adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
-  password: "postgres",
+  username: "developing",
+  password: "demosapp1!",
   database: "the_cart_test",
   hostname: "localhost",
   pool: Ecto.Adapters.SQL.Sandbox
