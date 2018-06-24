@@ -9,6 +9,7 @@ jobs:
       - image: circleci/elixir:latest
         environment:  # environment variables for primary container
           MIX_ENV: test
+          COVERALLS_REPO_TOKEN: z6XllUyessMKpgbmmZVTx7rrodIqkfb8G
       # Specify service dependencies here if necessary
       # CircleCI maintains a library of pre-built images
       # documented at https://circleci.com/docs/2.0/circleci-images/
