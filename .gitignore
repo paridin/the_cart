@@ -19,3 +19,12 @@ erl_crash.dump
 # Also ignore archive artifacts (built via "mix archive.build").
 *.ez
 
+# Ignore lock files
+*.lock
+
+# Ignore logs files
+*.log
+*.logs
+
+# Ignore error files
+*error*
