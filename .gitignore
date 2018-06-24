@@ -28,3 +28,7 @@ erl_crash.dump
 
 # Ignore error files
 *error*
+
+# Ignore coverages
+*cover*
+*coverage*
