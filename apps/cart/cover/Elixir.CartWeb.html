@@ -1,0 +1,78 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>cover/Elixir.CartWeb.html</title>
+</head><body style='background-color: white; color: black'>
+<pre>
+File generated from /Volumes/home/paridin/Devel/elixir/cart_app/apps/cart/lib/cart_web.ex by COVER 2018-06-23 at 22:22:26
+
+****************************************************************************
+
+        |  defmodule CartWeb do
+        |    @moduledoc """
+        |    The entrypoint for defining your web interface, such
+        |    as controllers, views, channels and so on.
+        |  
+        |    This can be used in your application as:
+        |  
+        |        use CartWeb, :controller
+        |        use CartWeb, :view
+        |  
+        |    The definitions below will be executed for every view,
+        |    controller, etc, so keep them short and clean, focused
+        |    on imports, uses and aliases.
+        |  
+        |    Do NOT define functions inside the quoted expressions
+        |    below. Instead, define any helper function in modules
+        |    and import those modules here.
+        |    """
+        |  
+        |    def controller do
+        |      quote do
+        |        use Phoenix.Controller, namespace: CartWeb
+        |        import Plug.Conn
+        |        import CartWeb.Router.Helpers
+        |        import CartWeb.Gettext
+        |      end
+        |    end
+        |  
+        |    def view do
+        |      quote do
+        |        use Phoenix.View, root: "lib/cart_web/templates",
+        |                          namespace: CartWeb
+        |  
+        |        # Import convenience functions from controllers
+        |        import Phoenix.Controller, only: [get_flash: 2, view_module: 1]
+        |  
+        |        import CartWeb.Router.Helpers
+        |        import CartWeb.ErrorHelpers
+        |        import CartWeb.Gettext
+        |      end
+        |    end
+        |  
+        |    def router do
+        |      quote do
+        |        use Phoenix.Router
+        |        import Plug.Conn
+        |        import Phoenix.Controller
+        |      end
+        |    end
+        |  
+        |    def channel do
+        |      quote do
+        |        use Phoenix.Channel
+        |        import CartWeb.Gettext
+        |      end
+        |    end
+        |  
+        |    @doc """
+        |    When used, dispatch to the appropriate controller/view/etc.
+        |    """
+        |    defmacro __using__(which) when is_atom(which) do
+<font color=red>     0..|      apply(__MODULE__, which, [])</font>
+        |    end
+        |  end
+</pre>
+</body>
+</html>
