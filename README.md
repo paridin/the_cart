@@ -1,5 +1,8 @@
 # Cart
 
+[![Coverage Status](https://coveralls.io/repos/github/paridin/the_cart/badge.svg?branch=master)](https://coveralls.io/github/paridin/the_cart?branch=master)
+[![CircleCI](https://circleci.com/gh/paridin/the_cart.svg?style=svg)](https://circleci.com/gh/paridin/the_cart)
+
 I want to learn Elixir and Phoenix using the umbrella architecture, currently I know React but I don't feel
 comfortable with my code so I want to learn Recompose because maybe it can
 help me to understand how Elm works.
@@ -18,7 +21,7 @@ can implement here.
 * [ ] Learn Recompose (thats why our first demo should work with react)
   * [ ] Setup the React project
   * [ ] Create a High
-  
+
 * [ ] Learn ELM
 
 ### Chronology
